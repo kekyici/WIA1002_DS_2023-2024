@@ -15,7 +15,7 @@ public class L01Q01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("hellooo");
+        System.out.println("hahahah");
     }
     
 }
