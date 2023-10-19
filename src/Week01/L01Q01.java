@@ -8,13 +8,14 @@ package javaapplication6;
  *
  * @author YiCi Kek
  */
-public class JavaApplication6 {
+public class L01Q01 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("hellooo");
     }
     
 }
