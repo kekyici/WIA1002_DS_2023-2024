@@ -25,7 +25,7 @@ public class L1Q2 {
         System.out.println("MATRIC NUMBER:"+matric);
         System.out.println("ADDRESS:"+address);
         System.out.println("EMAIL:"+email);
-        System.out.println("CONTACT:"+contact);
+        System.out.println("CONTACT :"+contact);
     }
     
 }
