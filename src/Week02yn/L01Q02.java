@@ -2,17 +2,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package I1q2;
+package Week02yn;
+
+import java.util.Scanner;
 
 /**
  *
  * @author Asus
  */
-
-import java.util.Scanner;
-
-public class MyProfile {
-    public static void main (String []args){
+public class L01Q02 {
+     public static void main (String []args){
         Scanner keyboard = new Scanner(System.in);
         String name;
         System.out.println("Please enter your name");
@@ -38,8 +37,7 @@ public class MyProfile {
         System.out.println("Please enter your favourite colour");
         colour = keyboard.next();
         
-        System.out.println("Full name: " + name + "\nMatric number: " + number1 + "\nAddress: " + address + "\nEmail: " + email + "\nContact: " + number2 + "\nFavourite colour: " + colour);
+        System.out.println("My Profile" + "\nFull name: " + name + "\nMatric number: " + number1 + "\nAddress: " + address + "\nEmail: " + email + "\nContact: " + number2 + "\nFavourite colour: " + colour);
         
     }
-    
 }
