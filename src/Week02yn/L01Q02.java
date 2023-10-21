@@ -12,32 +12,12 @@ import java.util.Scanner;
  */
 public class L01Q02 {
      public static void main (String []args){
-        Scanner keyboard = new Scanner(System.in);
-        String name;
-        System.out.println("Please enter your name");
-        name = keyboard.next();
-        
-        int number1;
-        System.out.println("Please enter your matric number");
-        number1= keyboard.nextInt();
-        
-        String address;
-        System.out.println("Please enter your address" );
-        address = keyboard.next();
-        
-        String email;
-        System.out.println("Please enter your email");
-        email = keyboard.next();
-        
-        int number2;
-        System.out.println("Please enter your contact");
-        number2 = keyboard.nextInt();
-        
-        String colour;
-        System.out.println("Please enter your favourite colour");
-        colour = keyboard.next();
-        
-        System.out.println("My Profile" + "\nFull name: " + name + "\nMatric number: " + number1 + "\nAddress: " + address + "\nEmail: " + email + "\nContact: " + number2 + "\nFavourite colour: " + colour);
-        
+        System.out.println("My Profile");
+        System.out.println("Name            : Tay Yi Ning");
+        System.out.println("Matric number   : 23005229");
+        System.out.println("Address         : FSKTM UM");
+        System.out.println("Email           : tayyining0527@gmail.com");
+        System.out.println("Contact         : 0167235640");
+               
     }
 }
