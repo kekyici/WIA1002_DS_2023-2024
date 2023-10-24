@@ -11,14 +11,14 @@ package Week02yn;
 public class L01Q04 {
     public static void main (String[]arg){
      System.out.println("      Total Sales of Product A in 2016      "
-             + "\n3200                                 *            "
-             + "\n2700                         *       *            "
-             + "\n2500 *                       *       *            "
-             + "\n2000 *               *       *       *            "
-             + "\n1600 *       *       *       *       *            "
-             + "\n800  *       *       *       *       *       *    "
-             + "\n     *       *       *       *       *       *    "
-             + "\n     *       *       *       *       *       *    "
-             + "\n  January February March   April    May     June  ");
+             + "\n3200                                 *             "
+             + "\n2700                         *       *             "
+             + "\n2500 *                       *       *             "
+             + "\n2000 *               *       *       *             "
+             + "\n1600 *       *       *       *       *             "
+             + "\n800  *       *       *       *       *       *     "
+             + "\n     *       *       *       *       *       *     "
+             + "\n     *       *       *       *       *       *     "
+             + "\n  January February March   April    May     June   ");
     }
 }
