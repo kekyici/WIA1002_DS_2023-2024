@@ -4,8 +4,6 @@
  */
 package Week02yn;
 
-import java.util.Scanner;
-
 /**
  *
  * @author Asus

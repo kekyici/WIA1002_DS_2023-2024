@@ -16,7 +16,8 @@ public class L01Q03 {
         System.out.println("*       *\t*       *\t  *  \t *     * ");
         System.out.println("*       *\t*       *\t  *  \t*       *");
         System.out.println("*       *\t*       *\t  *  \t *     *  ");
-        System.out.println("*       *\t *     * \t  *  \t  *   *   ");
-        System.out.println("*********\t   ***   \t  *  \t    *     ");
+        System.out.println("*       *\t*       *\t  *  \t  *   *   ");
+        System.out.println("*       *\t *     * \t  *  \t   * *    ");
+        System.out.println("*********\t   ***   \t  *  \t    *   ");
 }
 }
