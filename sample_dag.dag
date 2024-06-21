@@ -1,0 +1,5 @@
+JOB A sample_job.sub
+JOB B sample_job.sub
+JOB C sample_job.sub
+PARENT A CHILD B
+PARENT A CHILD C

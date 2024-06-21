@@ -1,0 +1,47 @@
+JOB A {
+    executable   = /path/to/executable_A
+    output       = A.out.$(cluster)
+    error        = A.err.$(cluster)
+    log          = A.log
+    request_cpus = 1
+    request_memory = 1024M
+    request_disk = 10240K
+    estimate_runtime = 30
+}
+
+JOB B {
+    executable   = /path/to/executable_B
+    output       = B.out.$(cluster)
+    error        = B.err.$(cluster)
+    log          = B.log
+    request_cpus = 1
+    request_memory = 1024M
+    request_disk = 10240K
+    estimate_runtime = 45
+}
+
+JOB C {
+    executable   = /path/to/executable_C
+    output       = C.out.$(cluster)
+    error        = C.err.$(cluster)
+    log          = C.log
+    request_cpus = 1
+    request_memory = 1024M
+    request_disk = 10240K
+    estimate_runtime = 60
+}
+
+JOB D {
+    executable   = /path/to/executable_D
+    output       = D.out.$(cluster)
+    error        = D.err.$(cluster)
+    log          = D.log
+    request_cpus = 1
+    request_memory = 1024M
+    request_disk = 10240K
+    estimate_runtime = 90
+}
+
+# Define dependencies
+PARENT A CHILD B C
+PARENT B C CHILD D
